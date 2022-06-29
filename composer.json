@@ -1,0 +1,23 @@
+{
+    "name": "withinboredom/response-code",
+    "description": "A simple response code enum library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Withinboredom\\ResponseCode\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Robert Landers",
+            "email": "landers.robert@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    }
+}
